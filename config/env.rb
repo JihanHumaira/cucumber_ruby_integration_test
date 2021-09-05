@@ -25,9 +25,6 @@ require 'logger'
 require 'webdrivers'
 require 'rotp'
 
-# gem_dir = Gem::Specification.find_by_name("bukalapak_web_automation").gem_dir
-# require "#{gem_dir}/bukalapak_web_automation"
-
 Dotenv.load
 Dotenv.overload(".env.#{ENV['ENV']}")
 include RSpec::Matchers
