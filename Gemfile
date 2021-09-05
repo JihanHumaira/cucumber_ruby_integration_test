@@ -1,11 +1,7 @@
 source 'https://rubygems.org'
 
-# Sort ruby gems by alphabet please!
-# Always use version on rubygem to prevent deprecate gem feature on new installation
-
 gem 'activesupport'
 gem 'artii', '~> 2.1', '>= 2.1.1'
-# gem 'bukalapak_web_automation', git: 'git@git.gitlab.cloud.bukalapak.io:bukalapak/bukalapak_web_automation.git', glob: 'web.gemspec'
 gem 'bson_ext'
 gem 'capybara', '3.18.0'
 gem 'capybara-screenshot', '~> 1.0', '>= 1.0.23'
