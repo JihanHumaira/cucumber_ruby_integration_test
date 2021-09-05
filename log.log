@@ -1,0 +1,46 @@
+Feature: Login
+
+  @positive
+  Scenario: Succes login               # features/scenarios/example.feature:4
+    Given user have registered before  # features/scenarios/example.feature:5
+    When Users visit login page        # features/scenarios/example.feature:6
+    And Users fill username text field # features/scenarios/example.feature:7
+    And Users fill password text field # features/scenarios/example.feature:8
+    And Users click login button       # features/scenarios/example.feature:9
+    And Users click account icon       # features/scenarios/example.feature:10
+    Then Users can found their name    # features/scenarios/example.feature:11
+
+1 scenario (1 undefined)
+7 steps (7 undefined)
+0m0.494s
+
+You can implement step definitions for undefined steps with these snippets:
+
+Given('user have registered before') do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When('Users visit login page') do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When('Users fill username text field') do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When('Users fill password text field') do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When('Users click login button') do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When('Users click account icon') do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then('Users can found their name') do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
