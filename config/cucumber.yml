@@ -1,6 +1,6 @@
 desktop: features/scenarios
-         -r features/support
-         -r config/web.rb
-         -r config/web/desktop
+         -r config/env.rb
+         -r config/web/driver.rb
+         -r config/web/desktop.rb
          -r features/step_definitions
          -r features/page_objects

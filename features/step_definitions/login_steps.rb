@@ -6,12 +6,17 @@ When('Users visit login page') do
     @browser = LoginPage.new
     @browser.load
     @browser.phone_number_text_field.set(@phone_number)
+    sleep 2
   end
   
   When('Users fill password text field') do
-    pending # Write code here that turns the phrase above into concrete actions
+    @browser.page.execute_script "window.scrollTo(0,300)"
+    sleep 3
+    @browser.password_text_field.set(@password)
+    sleep 2
   end
   
   When('Users click login button') do
-    pending # Write code here that turns the phrase above into concrete actions
+    @browser.login_button.click
+    sleep 2
   end
