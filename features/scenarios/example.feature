@@ -26,3 +26,4 @@ Feature: Login
      And Users fill username text field
      And Users fill password text field
      And Users click login button
+     Then Users see error message "Nomor Telepon atau Kata Sandi anda salah!"
