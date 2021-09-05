@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Before do
-  Capybara.app_host = ENV['BASE_URL'] || 'https://www.bukalapak.com'
+  Capybara.app_host = ENV['BASE_URL'] || 'https://www.evermos.com'
   puts "Base Url   : #{Capybara.app_host}"
   Capybara::Screenshot.autosave_on_failure = true
   Capybara::Screenshot.webkit_options = {
